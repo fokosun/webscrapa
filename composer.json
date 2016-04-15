@@ -2,6 +2,7 @@
     "name": "florence/scrapa",
     "description": "A simple php web scraper package",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "license": "MIT",
     "keywords": ["web scraping", "php"],
     "authors": [
