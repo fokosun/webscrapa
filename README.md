@@ -1,5 +1,9 @@
 #WebScrapa
 
+###DISCLAIMER
+The original purpose of this package is for learning. Use at your own discretion.
+
+
 [![Build Status](https://travis-ci.org/andela-fokosun/webscrapa.svg?branch=master)](https://travis-ci.org/andela-fokosun/webscrapa)
 
 A minimalist approach to building a PHP web scraper
@@ -58,4 +62,5 @@ From your terminal, run:
 ##Run tests
 
     vendor/bin/phpunit
+
 
