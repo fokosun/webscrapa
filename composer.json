@@ -2,7 +2,7 @@
     "name": "florence/scrapa",
     "description": "A simple php web scraper package",
     "license": "MIT",
-    "keywords": ["web scraping", "php"],
+    "keywords": ["web scraping", "php", "OOP", "TDD", "PHP/Package"],
     "authors": [
         {
             "name": "andela-fokosun",
