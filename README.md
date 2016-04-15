@@ -17,7 +17,7 @@ A minimalist approach to building a PHP web scraper
 
 ##Installation
     
-    composer require florence/scrapa
+    composer require "florence/scrapa: 0.0.1"
 
 
 ##Usage
