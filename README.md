@@ -1,4 +1,4 @@
-#VebScrapa
+#WebScrapa
 
 [![Build Status](https://travis-ci.org/andela-fokosun/webscrapa.svg?branch=master)](https://travis-ci.org/andela-fokosun/webscrapa)
 
@@ -33,7 +33,7 @@ $url is a string e.g. 'https://www.youtubecom/JustinBieber/about'
         $scrap->scrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href');
 
 
-Learn about XPath and about how to find DOM elements using XPath here
+Learn about XPath and about how to find DOM elements using XPath here 'https://goo.gl/m8SDlA'
 
 
 - Use the toArrayScrapDOM method to get the results of your query in array format
