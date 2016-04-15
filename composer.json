@@ -1,0 +1,33 @@
+{
+    "name": "Florence/Scrapa",
+    "description": "A simple php web scraper package",
+    "license": "MIT",
+    "keywords": ["web scraping", "php"],
+    "authors": [
+        {
+            "name": "andela-fokosun",
+            "email": "okosunuzflorence@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload":
+     {
+        "psr-4":
+        {
+            "Florence\\" : "src/"
+        },
+
+        "classmap": ["src/"]
+    },
+
+    "autoload-dev":
+    {
+        "psr-4":
+        {
+            "Florence\\Test\\" : "tests/"
+        }
+    }
+}
