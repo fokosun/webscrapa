@@ -21,7 +21,7 @@ A minimalist approach to building a PHP web scraper
 - Create an instance of the scrapa class:
 
     
-    $scrap = new Scrapa($url);
+        $scrap = new Scrapa($url);
 
 
 $url is a string e.g. 'https://www.youtubecom/JustinBieber/about'
@@ -30,7 +30,7 @@ $url is a string e.g. 'https://www.youtubecom/JustinBieber/about'
 - The new instance is available to crawl:
 
     
-    $scrap->scrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href');
+        $scrap->scrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href');
 
 
 Learn about XPath and about how to find DOM elements using XPath here
@@ -39,13 +39,13 @@ Learn about XPath and about how to find DOM elements using XPath here
 - Use the toArrayScrapDOM method to get the results of your query in array format
 
 
-    print_r($scrap->toArrayScrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href'));
+        print_r($scrap->toArrayScrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href'));
 
 
 - Use the toStringScrapDOM method to get the results of your query in array format
 
 
-    print_r($scrap->toStringScrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href'));
+        print_r($scrap->toStringScrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href'));
 
 
 ## Run the example file
