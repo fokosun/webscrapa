@@ -1,5 +1,5 @@
 {
-    "name": "Florence/Scrapa",
+    "name": "florence/scrapa",
     "description": "A simple php web scraper package",
     "license": "MIT",
     "keywords": ["web scraping", "php"],
