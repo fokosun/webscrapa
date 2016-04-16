@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Application Test Suite" tests="1" assertions="1" failures="0" errors="0" time="1.358022">
-    <testsuite name="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" tests="1" assertions="1" failures="0" errors="0" time="1.358022">
-      <testcase name="testNachHasCheese" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="7" assertions="1" time="1.358022"/>
+  <testsuite name="Application Test Suite" tests="3" assertions="3" failures="0" errors="0" time="28.295952">
+    <testsuite name="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" tests="3" assertions="3" failures="0" errors="0" time="28.295952">
+      <testcase name="testTargetUrlIsSame" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="13" assertions="1" time="1.421267"/>
+      <testcase name="testToStringScrapDOM" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="18" assertions="1" time="13.651639"/>
+      <testcase name="testToArrayScrapDOM" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="25" assertions="1" time="13.223046"/>
     </testsuite>
   </testsuite>
 </testsuites>

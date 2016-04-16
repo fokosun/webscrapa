@@ -1,3 +1,5 @@
 TAP version 13
-ok 1 - ScrapaTest::testNachHasCheese
-1..1
+ok 1 - ScrapaTest::testTargetUrlIsSame
+ok 2 - ScrapaTest::testToStringScrapDOM
+ok 3 - ScrapaTest::testToArrayScrapDOM
+1..3
