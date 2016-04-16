@@ -9,7 +9,9 @@
             "email": "okosunuzflorence@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "satooshi/php-coveralls": "^1.0"
+    },
     "require-dev": {
         "phpunit/phpunit": "^4.8"
     },

@@ -13,3 +13,6 @@ $webpage->scrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-l
 
 // print_r($webpage->toStringScrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href'));
 print_r($webpage->toArrayScrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href'));
+
+
+echo phpinfo();
