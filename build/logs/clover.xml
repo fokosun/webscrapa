@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1460867576">
-  <project timestamp="1460867576">
+<coverage generated="1460867955">
+  <project timestamp="1460867955">
     <package name="Florence">
       <file name="/Users/florenceokosun/Code/packages/webscrapa/src/Scrap.php">
         <class name="Scrap" namespace="Florence">
@@ -10,7 +10,7 @@
       </file>
       <file name="/Users/florenceokosun/Code/packages/webscrapa/src/Scrapa.php">
         <class name="Scrapa" namespace="Florence">
-          <metrics methods="6" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="21" elements="29" coveredelements="26"/>
+          <metrics methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="29" coveredelements="29"/>
         </class>
         <line num="19" type="method" name="__construct" crap="1" count="5"/>
         <line num="21" type="stmt" count="5"/>
@@ -20,13 +20,13 @@
         <line num="25" type="stmt" count="5"/>
         <line num="26" type="stmt" count="5"/>
         <line num="27" type="stmt" count="5"/>
-        <line num="29" type="method" name="packtPage" crap="1" count="2"/>
-        <line num="31" type="stmt" count="2"/>
-        <line num="34" type="method" name="packtPageXpath" crap="1" count="2"/>
-        <line num="36" type="stmt" count="2"/>
-        <line num="44" type="method" name="scrapDOM" crap="2" count="0"/>
-        <line num="46" type="stmt" count="0"/>
-        <line num="48" type="stmt" count="0"/>
+        <line num="29" type="method" name="packtPage" crap="1" count="3"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="34" type="method" name="packtPageXpath" crap="1" count="3"/>
+        <line num="36" type="stmt" count="3"/>
+        <line num="44" type="method" name="scrapDOM" crap="1" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
         <line num="55" type="method" name="toStringScrapDOM" crap="2" count="1"/>
         <line num="57" type="stmt" count="1"/>
         <line num="58" type="stmt" count="1"/>
@@ -41,7 +41,7 @@
         <line num="73" type="stmt" count="1"/>
         <line num="74" type="stmt" count="1"/>
         <line num="76" type="stmt" count="1"/>
-        <metrics loc="78" ncloc="67" classes="1" methods="6" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="21" elements="29" coveredelements="26"/>
+        <metrics loc="78" ncloc="67" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="29" coveredelements="29"/>
       </file>
       <file name="/Users/florenceokosun/Code/packages/webscrapa/src/XPathObject.php">
         <class name="XPathObject" namespace="Florence">
@@ -72,6 +72,6 @@
     <file name="/Users/florenceokosun/Code/packages/webscrapa/vendor/symfony/polyfill-mbstring/bootstrap.php">
       <metrics loc="51" ncloc="43" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <metrics files="4" loc="178" ncloc="155" classes="3" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="37" elements="48" coveredelements="45"/>
+    <metrics files="4" loc="178" ncloc="155" classes="3" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="39" elements="48" coveredelements="48"/>
   </project>
 </coverage>
