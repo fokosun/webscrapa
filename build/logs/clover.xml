@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1460866649">
-  <project timestamp="1460866649">
+<coverage generated="1460867576">
+  <project timestamp="1460867576">
     <package name="Florence">
       <file name="/Users/florenceokosun/Code/packages/webscrapa/src/Scrap.php">
         <class name="Scrap" namespace="Florence">
@@ -10,70 +10,68 @@
       </file>
       <file name="/Users/florenceokosun/Code/packages/webscrapa/src/Scrapa.php">
         <class name="Scrapa" namespace="Florence">
-          <metrics methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="24" coveredstatements="21" elements="31" coveredelements="26"/>
+          <metrics methods="6" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="21" elements="29" coveredelements="26"/>
         </class>
-        <line num="19" type="method" name="__construct" crap="1" count="4"/>
-        <line num="21" type="stmt" count="4"/>
-        <line num="22" type="stmt" count="4"/>
-        <line num="23" type="stmt" count="4"/>
-        <line num="24" type="stmt" count="4"/>
-        <line num="25" type="stmt" count="4"/>
-        <line num="26" type="stmt" count="4"/>
-        <line num="27" type="stmt" count="4"/>
-        <line num="29" type="method" name="__get" crap="2" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <line num="34" type="method" name="packtPage" crap="1" count="2"/>
+        <line num="19" type="method" name="__construct" crap="1" count="5"/>
+        <line num="21" type="stmt" count="5"/>
+        <line num="22" type="stmt" count="5"/>
+        <line num="23" type="stmt" count="5"/>
+        <line num="24" type="stmt" count="5"/>
+        <line num="25" type="stmt" count="5"/>
+        <line num="26" type="stmt" count="5"/>
+        <line num="27" type="stmt" count="5"/>
+        <line num="29" type="method" name="packtPage" crap="1" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="34" type="method" name="packtPageXpath" crap="1" count="2"/>
         <line num="36" type="stmt" count="2"/>
-        <line num="39" type="method" name="packtPageXpath" crap="1" count="2"/>
-        <line num="41" type="stmt" count="2"/>
-        <line num="49" type="method" name="scrapDOM" crap="2" count="0"/>
-        <line num="51" type="stmt" count="0"/>
-        <line num="53" type="stmt" count="0"/>
-        <line num="60" type="method" name="toStringScrapDOM" crap="2" count="1"/>
+        <line num="44" type="method" name="scrapDOM" crap="2" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="55" type="method" name="toStringScrapDOM" crap="2" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
         <line num="62" type="stmt" count="1"/>
-        <line num="63" type="stmt" count="1"/>
         <line num="64" type="stmt" count="1"/>
-        <line num="65" type="stmt" count="1"/>
-        <line num="67" type="stmt" count="1"/>
-        <line num="69" type="stmt" count="1"/>
-        <line num="72" type="method" name="toArrayScrapDOM" crap="2" count="1"/>
-        <line num="75" type="stmt" count="1"/>
+        <line num="67" type="method" name="toArrayScrapDOM" crap="2" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
         <line num="76" type="stmt" count="1"/>
-        <line num="77" type="stmt" count="1"/>
-        <line num="78" type="stmt" count="1"/>
-        <line num="79" type="stmt" count="1"/>
-        <line num="81" type="stmt" count="1"/>
-        <metrics loc="83" ncloc="72" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="24" coveredstatements="21" elements="31" coveredelements="26"/>
+        <metrics loc="78" ncloc="67" classes="1" methods="6" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="21" elements="29" coveredelements="26"/>
       </file>
       <file name="/Users/florenceokosun/Code/packages/webscrapa/src/XPathObject.php">
         <class name="XPathObject" namespace="Florence">
           <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="19" coveredelements="19"/>
         </class>
-        <line num="15" type="method" name="__construct" crap="1" count="4"/>
-        <line num="17" type="stmt" count="4"/>
-        <line num="18" type="stmt" count="4"/>
-        <line num="19" type="stmt" count="4"/>
-        <line num="20" type="stmt" count="4"/>
-        <line num="21" type="stmt" count="4"/>
-        <line num="22" type="stmt" count="4"/>
-        <line num="24" type="method" name="curlGet" crap="1" count="4"/>
-        <line num="26" type="stmt" count="4"/>
-        <line num="27" type="stmt" count="4"/>
-        <line num="28" type="stmt" count="4"/>
-        <line num="29" type="stmt" count="4"/>
-        <line num="30" type="stmt" count="4"/>
-        <line num="31" type="stmt" count="4"/>
-        <line num="35" type="method" name="returnXPathObject" crap="1" count="4"/>
-        <line num="37" type="stmt" count="4"/>
-        <line num="38" type="stmt" count="4"/>
-        <line num="39" type="stmt" count="4"/>
-        <line num="40" type="stmt" count="4"/>
+        <line num="15" type="method" name="__construct" crap="1" count="5"/>
+        <line num="17" type="stmt" count="5"/>
+        <line num="18" type="stmt" count="5"/>
+        <line num="19" type="stmt" count="5"/>
+        <line num="20" type="stmt" count="5"/>
+        <line num="21" type="stmt" count="5"/>
+        <line num="22" type="stmt" count="5"/>
+        <line num="24" type="method" name="curlGet" crap="1" count="5"/>
+        <line num="26" type="stmt" count="5"/>
+        <line num="27" type="stmt" count="5"/>
+        <line num="28" type="stmt" count="5"/>
+        <line num="29" type="stmt" count="5"/>
+        <line num="30" type="stmt" count="5"/>
+        <line num="31" type="stmt" count="5"/>
+        <line num="35" type="method" name="returnXPathObject" crap="1" count="5"/>
+        <line num="37" type="stmt" count="5"/>
+        <line num="38" type="stmt" count="5"/>
+        <line num="39" type="stmt" count="5"/>
+        <line num="40" type="stmt" count="5"/>
         <metrics loc="42" ncloc="40" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="19" coveredelements="19"/>
       </file>
     </package>
     <file name="/Users/florenceokosun/Code/packages/webscrapa/vendor/symfony/polyfill-mbstring/bootstrap.php">
       <metrics loc="51" ncloc="43" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <metrics files="4" loc="183" ncloc="160" classes="3" methods="10" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="40" coveredstatements="37" elements="50" coveredelements="45"/>
+    <metrics files="4" loc="178" ncloc="155" classes="3" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="37" elements="48" coveredelements="45"/>
   </project>
 </coverage>

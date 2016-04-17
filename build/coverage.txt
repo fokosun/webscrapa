@@ -1,14 +1,14 @@
 
 
 Code Coverage Report:    
-  2016-04-17 04:17:29    
+  2016-04-17 04:32:56    
                          
  Summary:                
   Classes: 66.67% (2/3)  
-  Methods: 80.00% (8/10) 
-  Lines:   92.50% (37/40)
+  Methods: 88.89% (8/9)  
+  Lines:   94.87% (37/39)
 
 \Florence::Scrapa
-  Methods:  71.43% ( 5/ 7)   Lines:  87.50% ( 21/ 24)
+  Methods:  83.33% ( 5/ 6)   Lines:  91.30% ( 21/ 23)
 \Florence::XPathObject
   Methods: 100.00% ( 3/ 3)   Lines: 100.00% ( 16/ 16)

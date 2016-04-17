@@ -5,7 +5,7 @@ This package was put together for learning purposes only.
 
 [![Build Status](https://travis-ci.org/andela-fokosun/webscrapa.svg?branch=master)](https://travis-ci.org/andela-fokosun/webscrapa) [![Coverage Status](https://coveralls.io/repos/github/andela-fokosun/webscrapa/badge.svg?branch=master)](https://coveralls.io/github/andela-fokosun/webscrapa?branch=master)
 
-A minimalist approach to building a PHP web scraper
+A simple PHP web scraper package
 
 
 ##Installation

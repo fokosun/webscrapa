@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Application Test Suite" tests="4" assertions="4" failures="0" errors="0" time="4.120484">
-    <testsuite name="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" tests="4" assertions="4" failures="0" errors="0" time="4.120484">
-      <testcase name="testXPathOBjectHasAttributeUrl" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="14" assertions="1" time="0.953947"/>
-      <testcase name="testTargetUrlIsSame" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="19" assertions="1" time="0.539588"/>
-      <testcase name="testToStringScrapDOM" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="24" assertions="1" time="1.429652"/>
-      <testcase name="testToArrayScrapDOM" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="29" assertions="1" time="1.197297"/>
+  <testsuite name="Application Test Suite" tests="5" assertions="5" failures="0" errors="0" time="6.448965">
+    <testsuite name="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" tests="5" assertions="5" failures="0" errors="0" time="6.448965">
+      <testcase name="testXPathOBjectHasAttributeUrl" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="14" assertions="1" time="0.844719"/>
+      <testcase name="testInstanceOf" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="19" assertions="1" time="0.728198"/>
+      <testcase name="testTargetUrlIsSame" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="24" assertions="1" time="0.776291"/>
+      <testcase name="testToStringScrapDOM" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="29" assertions="1" time="2.334506"/>
+      <testcase name="testToArrayScrapDOM" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="34" assertions="1" time="1.765251"/>
     </testsuite>
   </testsuite>
 </testsuites>

@@ -26,11 +26,6 @@ abstract class Scrapa
 		$this->pathObject = new XPathObject($url);
 	}
 
-	public function __get($key)
-    {
-        return $this->properties[$key];
-    }
-
 	public function packtPage() 
 	{
 		return $this->pathObject->curlGet($this->url);
