@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1460866224">
-  <project timestamp="1460866224">
+<coverage generated="1460866649">
+  <project timestamp="1460866649">
     <package name="Florence">
       <file name="/Users/florenceokosun/Code/packages/webscrapa/src/Scrap.php">
         <class name="Scrap" namespace="Florence">
           <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
-        <metrics loc="7" ncloc="7" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        <metrics loc="7" ncloc="5" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
       <file name="/Users/florenceokosun/Code/packages/webscrapa/src/Scrapa.php">
         <class name="Scrapa" namespace="Florence">
@@ -74,6 +74,6 @@
     <file name="/Users/florenceokosun/Code/packages/webscrapa/vendor/symfony/polyfill-mbstring/bootstrap.php">
       <metrics loc="51" ncloc="43" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <metrics files="4" loc="183" ncloc="162" classes="3" methods="10" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="40" coveredstatements="37" elements="50" coveredelements="45"/>
+    <metrics files="4" loc="183" ncloc="160" classes="3" methods="10" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="40" coveredstatements="37" elements="50" coveredelements="45"/>
   </project>
 </coverage>
