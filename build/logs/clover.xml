@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1460850977">
-  <project timestamp="1460850977">
+<coverage generated="1460852251">
+  <project timestamp="1460852251">
     <package name="Florence">
       <file name="/Users/florenceokosun/Code/packages/webscrapa/src/Scrapa.php">
         <class name="Scrapa" namespace="Florence">
           <metrics methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="24" coveredelements="24"/>
         </class>
-        <line num="17" type="method" name="__construct" crap="1" count="3"/>
-        <line num="19" type="stmt" count="3"/>
-        <line num="20" type="stmt" count="3"/>
-        <line num="21" type="stmt" count="3"/>
-        <line num="22" type="stmt" count="3"/>
-        <line num="23" type="stmt" count="3"/>
+        <line num="17" type="method" name="__construct" crap="1" count="4"/>
+        <line num="19" type="stmt" count="4"/>
+        <line num="20" type="stmt" count="4"/>
+        <line num="21" type="stmt" count="4"/>
+        <line num="22" type="stmt" count="4"/>
+        <line num="23" type="stmt" count="4"/>
         <line num="25" type="method" name="packtPage" crap="1" count="2"/>
         <line num="27" type="stmt" count="2"/>
         <line num="30" type="method" name="packtPageXpath" crap="1" count="2"/>
@@ -36,25 +36,25 @@
         <class name="XPathObject" namespace="Florence">
           <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="19" coveredelements="19"/>
         </class>
-        <line num="15" type="method" name="__construct" crap="1" count="3"/>
-        <line num="17" type="stmt" count="3"/>
-        <line num="18" type="stmt" count="3"/>
-        <line num="19" type="stmt" count="3"/>
-        <line num="20" type="stmt" count="3"/>
-        <line num="21" type="stmt" count="3"/>
-        <line num="22" type="stmt" count="3"/>
-        <line num="24" type="method" name="curlGet" crap="1" count="3"/>
-        <line num="26" type="stmt" count="3"/>
-        <line num="27" type="stmt" count="3"/>
-        <line num="28" type="stmt" count="3"/>
-        <line num="29" type="stmt" count="3"/>
-        <line num="30" type="stmt" count="3"/>
-        <line num="31" type="stmt" count="3"/>
-        <line num="35" type="method" name="returnXPathObject" crap="1" count="3"/>
-        <line num="37" type="stmt" count="3"/>
-        <line num="38" type="stmt" count="3"/>
-        <line num="39" type="stmt" count="3"/>
-        <line num="40" type="stmt" count="3"/>
+        <line num="15" type="method" name="__construct" crap="1" count="4"/>
+        <line num="17" type="stmt" count="4"/>
+        <line num="18" type="stmt" count="4"/>
+        <line num="19" type="stmt" count="4"/>
+        <line num="20" type="stmt" count="4"/>
+        <line num="21" type="stmt" count="4"/>
+        <line num="22" type="stmt" count="4"/>
+        <line num="24" type="method" name="curlGet" crap="1" count="4"/>
+        <line num="26" type="stmt" count="4"/>
+        <line num="27" type="stmt" count="4"/>
+        <line num="28" type="stmt" count="4"/>
+        <line num="29" type="stmt" count="4"/>
+        <line num="30" type="stmt" count="4"/>
+        <line num="31" type="stmt" count="4"/>
+        <line num="35" type="method" name="returnXPathObject" crap="1" count="4"/>
+        <line num="37" type="stmt" count="4"/>
+        <line num="38" type="stmt" count="4"/>
+        <line num="39" type="stmt" count="4"/>
+        <line num="40" type="stmt" count="4"/>
         <metrics loc="42" ncloc="40" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="19" coveredelements="19"/>
       </file>
     </package>

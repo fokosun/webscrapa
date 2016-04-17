@@ -8,12 +8,6 @@ This package was put together for learning purposes only.
 A minimalist approach to building a PHP web scraper
 
 
-##Dependencies
-
-
-    - phpunit/phpunit: ^4.8
-
-
 ##Installation
     
     composer require "florence/scrapa: 0.0.1"

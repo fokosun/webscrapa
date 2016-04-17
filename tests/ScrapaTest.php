@@ -10,6 +10,11 @@ class ScrapaTest extends PHPUnit_Framework_TestCase {
 		$this->scrap = new Scrapa($this->url);
 	}
 
+	public function testXPathOBjectHasAttributeUrl()
+    {
+        $this->assertObjectHasAttribute('url', $this->scrap);
+    }
+
 	public function testTargetUrlIsSame()
 	{
 		$this->assertEquals($this->url, $this->scrap->url);

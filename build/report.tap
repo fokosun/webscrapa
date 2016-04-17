@@ -1,5 +1,6 @@
 TAP version 13
-ok 1 - ScrapaTest::testTargetUrlIsSame
-ok 2 - ScrapaTest::testToStringScrapDOM
-ok 3 - ScrapaTest::testToArrayScrapDOM
-1..3
+ok 1 - ScrapaTest::testNotFailure
+ok 2 - ScrapaTest::testTargetUrlIsSame
+ok 3 - ScrapaTest::testToStringScrapDOM
+ok 4 - ScrapaTest::testToArrayScrapDOM
+1..4
