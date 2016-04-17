@@ -7,12 +7,12 @@ class ScrapaTest extends PHPUnit_Framework_TestCase {
 	public function setUp()
 	{
 		$this->url = 'https://www.youtube.com/user/RihannaVEVO/about';
-        $this->query = '//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href';
+		$this->query = '//ul[@class="about-custom-links"]//a[@class="about-channel-link"]/@href';
 		$this->scrap = new Scrap($this->url, $this->query);
 	}
 
 	public function testXPathOBjectHasAttributeUrl()
-    {
+	{
         $this->assertObjectHasAttribute('url', $this->scrap);
     }
 
@@ -21,10 +21,10 @@ class ScrapaTest extends PHPUnit_Framework_TestCase {
         $this->assertInstanceOf('Florence\Scrap', $this->scrap->scrapDOM());
     }
 
-	public function testTargetUrlIsSame()
-	{
-		$this->assertEquals($this->url, $this->scrap->url);
-	}
+    public function testTargetUrlIsSame()
+    {
+    	$this->assertEquals($this->url, $this->scrap->url);
+    }
 
 	public function testToStringScrapDOM()
     {
