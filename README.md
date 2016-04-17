@@ -22,6 +22,8 @@ A simple PHP web scraper package
 
 
 $url is a string e.g. 'https://www.youtubecom/JustinBieber/about'
+
+
 $query is also a string e.g. '//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href'
 
 
