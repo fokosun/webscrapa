@@ -1,5 +1,5 @@
 TAP version 13
-ok 1 - ScrapaTest::testNotFailure
+ok 1 - ScrapaTest::testXPathOBjectHasAttributeUrl
 ok 2 - ScrapaTest::testTargetUrlIsSame
 ok 3 - ScrapaTest::testToStringScrapDOM
 ok 4 - ScrapaTest::testToArrayScrapDOM

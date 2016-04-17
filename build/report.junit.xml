@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Application Test Suite" tests="4" assertions="4" failures="0" errors="0" time="35.524546">
-    <testsuite name="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" tests="4" assertions="4" failures="0" errors="0" time="35.524546">
-      <testcase name="testNotFailure" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="13" assertions="1" time="1.594671"/>
-      <testcase name="testTargetUrlIsSame" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="18" assertions="1" time="1.596899"/>
-      <testcase name="testToStringScrapDOM" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="23" assertions="1" time="17.947986"/>
-      <testcase name="testToArrayScrapDOM" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="30" assertions="1" time="14.384990"/>
+  <testsuite name="Application Test Suite" tests="4" assertions="4" failures="0" errors="0" time="6.841512">
+    <testsuite name="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" tests="4" assertions="4" failures="0" errors="0" time="6.841512">
+      <testcase name="testXPathOBjectHasAttributeUrl" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="14" assertions="1" time="0.974450"/>
+      <testcase name="testTargetUrlIsSame" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="19" assertions="1" time="0.614020"/>
+      <testcase name="testToStringScrapDOM" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="24" assertions="1" time="2.209835"/>
+      <testcase name="testToArrayScrapDOM" class="ScrapaTest" file="/Users/florenceokosun/Code/packages/webscrapa/tests/ScrapaTest.php" line="29" assertions="1" time="3.043207"/>
     </testsuite>
   </testsuite>
 </testsuites>

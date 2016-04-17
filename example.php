@@ -2,14 +2,15 @@
 
 require "vendor/autoload.php";
 
-use Florence\Scrapa;
+use Florence\Scrap;
 
 
 // run the scrapper and fetch results
 
-// $webpage = new Scrapa('https://www.youtube.com/user/RihannaVEVO/about');
 
-// $webpage->scrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href');
+$url = 'https://www.youtube.com/user/RihannaVEVO/about';
+$query = '//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href';
 
-// print_r($webpage->toStringScrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href'));
-// print_r($webpage->toArrayScrapDOM('//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href'));
+$webpage = new Scrap($url, $query);
+print_r($webpage->scrapDOM()->toStringScrapDOM());
+print_r($webpage->scrapDOM()->toArrayScrapDOM());
