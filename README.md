@@ -10,7 +10,7 @@ A simple PHP web scraper package
 
 ##Installation
     
-    composer require "florence/scrapa: 0.0.1"
+    composer require "florence/scrapa: v1.0"
 
 
 ##Usage
