@@ -33,7 +33,7 @@ WebScrapa is a simple web scraper package written with PHP
         print_r($scrap->toArrayScrapDOM());
 
 
-- Use the toStringScrapDOM method to get the results of your query in array format
+- Use the toStringScrapDOM method to get the results of your query in string format
 
 
         print_r($scrap->toStringScrapDOM())
