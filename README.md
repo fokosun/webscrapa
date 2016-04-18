@@ -5,7 +5,9 @@ This package was put together for learning purposes only.
 
 [![Build Status](https://travis-ci.org/andela-fokosun/webscrapa.svg?branch=master)](https://travis-ci.org/andela-fokosun/webscrapa) [![Coverage Status](https://coveralls.io/repos/github/andela-fokosun/webscrapa/badge.svg?branch=master)](https://coveralls.io/github/andela-fokosun/webscrapa?branch=master)
 
-A simple PHP web scraper package
+A simple PHP web scraper package -
+
+Most websites do not offer the functionality to save a copy of the data which they display to your computer. The only option then is to manually copy and paste the data displayed by the website in your browser to a local file in your computer - a very tedious job which can take many hours or sometimes days to complete. Web Scraping is the technique of automating this process.
 
 
 ##Installation
