@@ -20,17 +20,11 @@ WebScrapa is a simple web scraper package written with PHP
 
 - Create an instance of the scrapa class:
 
-    
+    	$url = 'https://www.youtubecom/JustinBieber/about';
+    	$query = '//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href';
+
         $scrap = new Scrap($url, $query);
 
-
-$url is a string e.g. 'https://www.youtubecom/JustinBieber/about'
-
-
-$query is also a string e.g. '//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href'
-
-
-Learn about XPath and about how to find DOM elements using XPath here 'https://goo.gl/m8SDlA'
 
 
 - Use the toArrayScrapDOM method to get the results of your query in array format
@@ -47,13 +41,23 @@ Learn about XPath and about how to find DOM elements using XPath here 'https://g
 
 ## Run the example file
 
-From your terminal, run:
-    
-    php example.php
+clone the repo 
+
+	git clone https://github.com/andela-fokosun/webscrapa
+
+run
+
+	composer install
 
 
-##Run tests
+from your terminal, run:
 
-    vendor/bin/phpunit
+		
+	php example.php
+
+
+run tests
+
+	vendor/bin/phpunit
 
 
