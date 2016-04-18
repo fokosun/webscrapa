@@ -41,7 +41,9 @@ class ScrapaTest extends PHPUnit_Framework_TestCase {
     {
         $pck = m::mock('Scrap');
         $pck->shouldReceive('resetArr')->andReturn(['http://www.vevo.com/artist/rihanna']);
+        
         $this->assertInternalType('array', $pck->resetArr());
+        $this->assertContains('http://www.vevo.com/artist/rihanna', $pck->resetArr());
     }
 
     public function tearDown()
