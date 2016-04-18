@@ -18,7 +18,7 @@ WebScrapa is a simple web scraper package written with PHP. It uses cURL to requ
 
 ##Usage
 
-- Create an instance of the scrapa class:
+- Create an instance of the Scrap class:
 
     	$url = 'https://www.youtubecom/JustinBieber/about';
     	$query = '//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@href';
