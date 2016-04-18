@@ -8,21 +8,13 @@ use Florence\XPathObject;
 
 abstract class Scrapa 
 {
-	private $pathObject;
-	private $arr;
 	public $url;
-	private $urlStrings;
-	private $strings;
-	private $providers;
-	private $channelName;
+	private $pathObject;
 
 	public function __construct($url, $query)
 	{
-		$this->arr = [];
 		$this->url = $url;
 		$this->query = $query;
-		$this->scrapDOMStrings = '';
-		$this->strings = '';
 		$this->pathObject = new XPathObject($url);
 	}
 
@@ -54,25 +46,26 @@ abstract class Scrapa
 	*/
 	public function toStringScrapDOM() 
 	{
-		$pck = $this->packtPageXpath()->query($this->query);
-		for ($i = 0; $i < $pck->length; $i++) {
-			array_push($this->arr, $pck->item($i)->nodeValue);
-		}
-		
-		$this->strings = implode(",", $this->arr);
+		$arr = $this->resetArr($this->packtPageXpath()->query($this->query));
+		$strings = implode(",", $arr);
 
-		return $this->strings;
+		return $strings;
 	}
 
 	public function toArrayScrapDOM() 
 	{
-		// empty the array
-		$this->arr = [];
-		$pck = $this->packtPageXpath()->query($this->query);
+		$arr = $this->resetArr($this->packtPageXpath()->query($this->query));
+		return $arr;
+	}
+
+	public function resetArr($pck) 
+	{
+		$arr = [];
+
 		for ($i = 0; $i < $pck->length; $i++) {
-			array_push($this->arr, $pck->item($i)->nodeValue);
+			array_push($arr, $pck->item($i)->nodeValue);
 		}
 
-		return $this->arr;
+		return $arr;
 	}
 }

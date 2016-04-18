@@ -1,7 +1,0 @@
-TAP version 13
-ok 1 - ScrapaTest::testXPathOBjectHasAttributeUrl
-ok 2 - ScrapaTest::testInstanceOf
-ok 3 - ScrapaTest::testTargetUrlIsSame
-ok 4 - ScrapaTest::testToStringScrapDOM
-ok 5 - ScrapaTest::testToArrayScrapDOM
-1..5
