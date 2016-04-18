@@ -9,6 +9,7 @@ A simple PHP web scraper package -
 
 Most websites do not offer the functionality to save a copy of the data which they display to your computer. The only option then is to manually copy and paste the data displayed by the website in your browser to a local file in your computer - a very tedious job which can take many hours or sometimes days to complete. Web Scraping is the technique of automating this process.
 
+WebScrapa is a simple web scraper package written with PHP
 
 ##Installation
     
