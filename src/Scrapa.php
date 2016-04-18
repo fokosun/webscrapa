@@ -55,6 +55,7 @@ abstract class Scrapa
 	public function toArrayScrapDOM() 
 	{
 		$arr = $this->resetArr($this->packtPageXpath()->query($this->query));
+		
 		return $arr;
 	}
 

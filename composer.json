@@ -13,6 +13,7 @@
         "satooshi/php-coveralls": "^1.0"
     },
     "require-dev": {
+        "mockery/mockery": "dev-master",
         "phpunit/phpunit": "^4.8"
     },
     "autoload":

@@ -1,7 +1,8 @@
 <?php
- 
+
+use \Mockery as m;
 use Florence\Scrap;
- 
+
 class ScrapaTest extends PHPUnit_Framework_TestCase {
 
 	public function setUp()
@@ -13,7 +14,6 @@ class ScrapaTest extends PHPUnit_Framework_TestCase {
 
 	public function testXPathOBjectHasAttributeUrl()
 	{
-        // var_dump($this->scrap);
         $this->assertObjectHasAttribute('url', $this->scrap);
     }
 
@@ -36,4 +36,17 @@ class ScrapaTest extends PHPUnit_Framework_TestCase {
     {
         $this->assertInternalType('array', $this->scrap->toArrayScrapDOM());
     }
+
+    public function testResetArr()
+    {
+        $pck = m::mock('Scrap');
+        $pck->shouldReceive('resetArr')->andReturn(['http://www.vevo.com/artist/rihanna']);
+        $this->assertInternalType('array', $pck->resetArr());
+    }
+
+    public function tearDown()
+    {
+        m::close();
+    }
+
 }
