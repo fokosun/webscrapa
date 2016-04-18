@@ -10,5 +10,5 @@ $query = '//ul[@class="about-custom-links"]//a[@class="about-channel-link "]/@hr
 
 $webpage = new Scrap($url, $query);
 
-// print_r($webpage->scrapDOM()->toStringScrapDOM());
-// print_r($webpage->scrapDOM()->toArrayScrapDOM());
+print_r($webpage->scrapDOM()->toStringScrapDOM());
+print_r($webpage->toArrayScrapDOM());

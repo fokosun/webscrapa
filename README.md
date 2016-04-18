@@ -36,13 +36,13 @@ Learn about XPath and about how to find DOM elements using XPath here 'https://g
 - Use the toArrayScrapDOM method to get the results of your query in array format
 
 
-        print_r($scrap->scrapDOM()->toArrayScrapDOM());
+        print_r($scrap->toArrayScrapDOM());
 
 
 - Use the toStringScrapDOM method to get the results of your query in array format
 
 
-        print_r($scrap->scrapDOM()->toStringScrapDOM())
+        print_r($scrap->toStringScrapDOM())
 
 
 ## Run the example file
